@@ -1,0 +1,30 @@
+baseline_unet_model.h5
+dilated_unet_model.h5
+data_splits_128.pkl
+data_splits_256.pkl
+
+# Ignore a specific folder named 'data'
+data/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and output files
+*.log
+*.out
+
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+
+# Ignore Git-specific files
+.git/
